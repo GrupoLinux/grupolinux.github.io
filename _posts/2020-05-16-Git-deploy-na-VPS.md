@@ -5,7 +5,7 @@ description: "A idéia desse artigo é mostrar como configurar um deploy automat
 date:   2020-05-16 22:30:00 -0300
 categories: vps
 by: 'Reginaldo'
-icon: 'debug'
+icon: 'credit-card'
 questions:
   - question: '## Git deploy na VPS'
     answer: '
