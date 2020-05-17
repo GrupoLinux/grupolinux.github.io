@@ -17,26 +17,26 @@ questions:
 		<p>aplicação: <b>/var/www/html/projeto</b></p>
 
 		<code>
-		# mkdir /var/repo
-		# mkdir /var/repo/projeto.git
-		# cd /var/repo/projeto.git
-		# git init --bare
-		# cd hooks
+		# mkdir /var/repo<br>
+		# mkdir /var/repo/projeto.git<br>
+		# cd /var/repo/projeto.git<br>
+		# git init --bare<br>
+		# cd hooks<br>
 		# vim post-receive
 		</code>
 
 		<code>
-		#!/bin/bash
+		#!/bin/bash<br>
 		git --work-tree=/var/www/html/projeto --git-dir=/var/repo/projeto.git checkout -f
 		</code>
 
 		<p>ESC +:wq (Salvar e sair do editor Vim)</p>
 
 		<code>
-		# chmod +x post-receive
-		# chown -R usuario:usuario /var/repo/projeto.git
-
-		# mkdir /var/www/html/projeto
+		# chmod +x post-receive<br>
+		# chown -R usuario:usuario /var/repo/projeto.git<br>
+		<br>
+		# mkdir /var/www/html/projeto<br>
 		# chown  R www-data:www-data /var/www/html/projeto
 		</code>
 
@@ -45,10 +45,10 @@ questions:
 		<p>Adicionar o repositório deploy da VPS no remote</p>
 
 		<code>
-		git remote add deploy ssh://usuario@IP_VPS/var/repo/projeto.git
-		git add .
-		git commit -m "primeiro commit"
-		git push origin master
+		git remote add deploy ssh://usuario@IP_VPS/var/repo/projeto.git<br>
+		git add .<br>
+		git commit -m "primeiro commit"<br>
+		git push origin master<br>
 		git push deploy master
 		</code>
 		
@@ -61,7 +61,7 @@ questions:
 		<p>Caso ocorra algum erro de permissão, execute o hooks/post-receive manualmente</p>
 
 		<code>
-		#cd /var/repo/projeto.git/hooks
+		#cd /var/repo/projeto.git/hooks<br>
 		#./post-receive
 		</code>
 
