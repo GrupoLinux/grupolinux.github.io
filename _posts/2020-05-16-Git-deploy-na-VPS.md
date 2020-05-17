@@ -8,7 +8,7 @@ by: 'Reginaldo'
 icon: 'credit-card'
 questions:
   - question: 'Git deploy na VPS'
-    answer: "
+    answer: '
 		<p>Considerando que já tenha configurado o ambiente e esteja funcionando na VPS, incluindo o GIT. Chegou a hora de automatizar o deploy da aplicação. Esse é o objetivo deste post.</p>
 
 		<p>Na VPS cria dois diretórios, uma para o repositório e outro para aplicação</p>
@@ -65,6 +65,6 @@ questions:
 		#./post-receive
 		</code>
 
-		Feito!"
+		Feito!'
     image: "posts/vps.jpg"
 ---
