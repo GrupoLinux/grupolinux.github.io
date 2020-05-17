@@ -9,7 +9,7 @@
 title: "Grupo Linux para todos"
 email: rmsaitam@gmail.com
 description: "Repositório para agregar posts do grupo do Telegram."
-baseurl: "grupolinux.github.io"
+baseurl: "/"
 url: "https://grupolinux.github.io/"
 twitter_username: "rmsaita"
 github_username:  "rmsaita"
