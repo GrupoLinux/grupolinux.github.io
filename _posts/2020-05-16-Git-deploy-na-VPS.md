@@ -7,7 +7,7 @@ categories: vps
 by: 'Reginaldo'
 icon: 'credit-card'
 questions:
-  - question: 'Git deploy na VPS'
+  - question: '## Git deploy na VPS'
     answer: '
 		<p>Considerando que já tenha configurado o ambiente e esteja funcionando na VPS, incluindo o GIT. Chegou a hora de automatizar o deploy da aplicação. Esse é o objetivo deste post.</p>
 
