@@ -499,9 +499,9 @@ mark,
 }
 
 code {
-  font-size: 87.5%;
-  color: #e83e8c;
-  word-wrap: break-word;
+  font-size: 87.5% !important;
+  color: #e83e8c !important;
+  word-wrap: break-word !important;
 }
 
 a > code {
