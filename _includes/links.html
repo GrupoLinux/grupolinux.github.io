@@ -1,12 +1,4 @@
     <div class="list-group">
-        <a href="#" class="list-group-item active">Link</a>
-        <a href="#" class="list-group-item">Link</a>
-        <a href="#" class="list-group-item">Link</a>
-        <a href="#" class="list-group-item">Link</a>
-        <a href="#" class="list-group-item">Link</a>
-        <a href="#" class="list-group-item">Link</a>
-        <a href="#" class="list-group-item">Link</a>
-        <a href="#" class="list-group-item">Link</a>
-        <a href="#" class="list-group-item">Link</a>
-        <a href="#" class="list-group-item">Link</a>
+            {% for item in site.data.links %}
+            <a class="list-group-item" href="{{ item.link }}">{{ item.name }}</a>{% endfor %}
     </div>
