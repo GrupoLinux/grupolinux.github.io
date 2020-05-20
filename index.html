@@ -1,0 +1,23 @@
+---
+layout: default
+pagetitle: Linux
+---
+<div class="row mb-2">
+    {% for post in site.posts %}
+    <div class="col-md-6">
+        <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
+            <div class="col p-4 d-flex flex-column position-static">
+                <strong class="d-inline-block mb-2 text-primary">#{{ post.tag }}</strong>
+                <h3 class="mb-0">{{ post.title }}</h3>
+                <div class="mb-1 text-muted">{{ post.date | date: "%d/%m/%Y" }}</div>
+                <p class="card-text mb-auto">{{ post.resumo }}</p>
+                <a href="{{ post.url }}" class="stretched-link">Leia mais</a>
+            </div>
+            <div class="col-auto d-none d-lg-block">
+                <img src="/assets/images/post/{{ post.image }}" alt="{{ post.title }}" style="max-width:225px;max-height:188px">
+            </div>
+        </div>
+    </div>
+    {% endfor %}
+</div>
+<!-- /.container -->

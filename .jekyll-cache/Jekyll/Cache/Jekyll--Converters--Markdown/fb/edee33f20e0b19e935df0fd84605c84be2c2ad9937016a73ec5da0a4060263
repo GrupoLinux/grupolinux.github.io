@@ -1,0 +1,45 @@
+I"><p>Considerando que já tenha configurado o ambiente e esteja funcionando na VPS, incluindo o GIT. Chegou a hora de automatizar o deploy da aplicação. Esse é o objetivo deste post.</p>
+
+<p>Na VPS cria dois diretórios, uma para o repositório e outro para aplicação</p>
+
+<p>repositório: <strong>/var/repo/projeto.git</strong></p>
+
+<p>aplicação: <strong>/var/www/html/projeto</strong></p>
+
+<p>`# mkdir /var/repo</p>
+<h1 id="mkdir-varrepoprojetogit">mkdir /var/repo/projeto.git</h1>
+<h1 id="cd-varrepoprojetogit">cd /var/repo/projeto.git</h1>
+<h1 id="git-init-bare">git init –bare</h1>
+<h1 id="cd-hooks">cd hooks</h1>
+<h1 id="vim-post-receive-binbash">vim post-receive<code class="highlighter-rouge"> </code>#!/bin/bash</h1>
+<p>git –work-tree=/var/www/html/projeto –git-dir=/var/repo/projeto.git checkout -f`</p>
+
+<p>ESC +:wq (Salvar e sair do editor Vim)</p>
+
+<p>`# chmod +x post-receive</p>
+<h1 id="chown--r-usuariousuario-varrepoprojetogit">chown -R usuario:usuario /var/repo/projeto.git</h1>
+
+<h1 id="mkdir-varwwwhtmlprojeto">mkdir /var/www/html/projeto</h1>
+<h1 id="chown-r-www-datawww-data-varwwwhtmlprojeto">chown R www-data:www-data /var/www/html/projeto`</h1>
+
+<p>Agora na máquina de desenvolvimento</p>
+
+<p>Acesse o diretório do projeto, execute</p>
+
+<p>Adicionar o repositório deploy da VPS no remote</p>
+
+<p><code class="highlighter-rouge">git remote add deploy ssh://usuario@IP_VPS/var/repo/projeto.git  
+git add .  
+git commit -m "primeiro commit"  
+git push origin master  
+git push deploy master</code></p>
+
+<p>Para visualizar os commits</p>
+
+<p><code class="highlighter-rouge">git log --all --graph --decorate --oneline</code></p>
+
+<p>Caso ocorra algum erro de permissão, execute o hooks/post-receive manualmente</p>
+
+<p><code class="highlighter-rouge">#cd /var/repo/projeto.git/hooks  
+#./post-receive</code> Feito!</p>
+:ET
