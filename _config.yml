@@ -33,4 +33,4 @@ defaults:
 tipue_search:
   include:
     pages: true
-    collections: [tag]
+    collections: [apples, oranges]
