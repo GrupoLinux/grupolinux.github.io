@@ -2,25 +2,25 @@
 layout: default
 pagetitle: Home
 ---
-    <div class="col-12 col-md-9">
-        <p class="float-right hidden-md-up">
-            <button type="button" class="btn btn-primary btn-sm" data-toggle="offcanvas">Toggle nav</button>
-        </p>
-        <div class="jumbotron">
-            <h1>Blog Linux Brasil</h1>
-            <p>Antes de um blog uma base de conhecimentos</p>
-        </div>
 
-        <!-- posts.loop-->
-        <div class="row">
-            {% for post in site.posts %}
-            <div class="col-6 col-lg-4">
-                <strong class="d-inline-block mb-2 text-primary">#{{ post.tag }}</strong>
-                <h2>{{ post.titulo }}</h2>
-                <div class="mb-1 text-muted">{{ post.date | date: "%d/%m/%Y" }}</div>
-                <p>{{ post.resumo }}</p>
-                <p><a class="btn btn-secondary" href="{{ post.url }}" role="button">Leia mais &raquo;</a></p>
-            </div><!--/span-->
-            {% endfor %}
-        </div><!--/row-->
-    </div><!--/span-->
+<div class="blog-header">
+    <h3 class="blog-title">{{ site.title }}</h3>
+    <p class="lead blog-description">{{ site.description }}</p>
+</div>
+<!-- posts.loop-->
+<div class="row">
+    <div class="col-9 col-sm-9 blog-main">
+        {% for post in site.posts %}
+        <div class="col-5 col-lg-5 d-inline-block">
+            <strong class="d-inline-block mb-2 text-primary">#{{ post.tag }}</strong>
+            <h2>{{ post.titulo }}</h2>
+            <div class="mb-1 text-muted">{{ post.date | date: "%d/%m/%Y" }}</div>
+            <p>{{ post.resumo }}</p>
+            <p><a class="btn btn-secondary" href="{{ post.url }}" role="button">Leia mais &raquo;</a></p>
+        </div><!--/span-->
+        {% endfor %}
+    </div><!--/row-->
+    <div class="col-3 col-sm-3 col-sm-offset-1 blog-sidebar">
+        {% include links.html %}
+    </div>
+</div><!--/span-->

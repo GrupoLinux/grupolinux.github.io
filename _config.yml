@@ -2,7 +2,7 @@
 title: "Grupo Linux para todos"
 email: rmsaitam@gmail.com
 description: "O objetivo do blog colaborativo é publicar posts dos possíveis problemas comuns e dúvidas dos membros no grupo https://t.me/LinuxParaTodos, assim basta enviar o link."
-baseurl: "https://grupolinux.github.io"
+baseurl: ""
 url: "https://grupolinux.github.io"
 twitter_username: "@blogcomputacao"
 github_username:  "rmsaitam"

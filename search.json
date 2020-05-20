@@ -4,12 +4,12 @@ layout: null
 [
   {% for post in site.posts %}
     {
-      "description" : "{{ post.resumo }}",
-      "date"        : "{{ post.data }}",
-      "categories"  : "{{ post.tag | array_to_sentence_string }}",
-      "by"          : "{{ post.author }}",
-      "url"         : "{{ site.baseurl }}{{ post.url }}",
-      "titulo"      : {{ post.titulo | jsonify }}
+      "resumo" : "{{ post.resumo }}",
+      "data"   : "{{ post.data }}",
+      "tag"    : "{{ post.tag }}",
+      "by"     : "{{ post.author }}",
+      "url"    : "{{ site.baseurl }}{{ post.url }}",
+      "titulo" : "{{ post.titulo | jsonify }}"
 
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
