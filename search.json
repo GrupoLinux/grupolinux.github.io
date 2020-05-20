@@ -4,14 +4,12 @@ layout: null
 [
   {% for post in site.posts %}
     {
-      "title"       : "{{ post.title | escape }}",
-      "description" : "{{ post.description }}",
-      "date"        : "{{ post.date }}",
-      "categories"  : "{{ post.categories | array_to_sentence_string }}",
-      "by"          : "{{ post.by }}",
+      "description" : "{{ post.resumo }}",
+      "date"        : "{{ post.data }}",
+      "categories"  : "{{ post.tag | array_to_sentence_string }}",
+      "by"          : "{{ post.author }}",
       "url"         : "{{ site.baseurl }}{{ post.url }}",
-      "icon"        : "{{ post.icon }}",
-      "questions"   : {{ post.questions | jsonify }}
+      "questions"   : {{ post.titulo | jsonify }}
 
     } {% unless forloop.last %},{% endunless %}
   {% endfor %}
