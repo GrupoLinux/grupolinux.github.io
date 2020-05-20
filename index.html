@@ -2,22 +2,28 @@
 layout: default
 pagetitle: Home
 ---
-<div class="row mb-2">
-    {% for post in site.posts %}
-    <div class="col-md-6">
-        <div class="row no-gutters border rounded overflow-hidden flex-md-row mb-4 shadow-sm h-md-250 position-relative">
-            <div class="col p-4 d-flex flex-column position-static">
-                <strong class="d-inline-block mb-2 text-primary">#{{ post.tag }}</strong>
-                <h3 class="mb-0">{{ post.titulo }}</h3>
-                <div class="mb-1 text-muted">{{ post.date | date: "%d/%m/%Y" }}</div>
-                <p class="card-text mb-auto">{{ post.resumo }}</p>
-                <a href="{{ post.url }}" class="stretched-link">Leia mais</a>
-            </div>
-            <div class="col-auto d-none d-lg-block">
-                <img src="/assets/images/post/{{ post.image }}" alt="{{ post.title }}" style="max-width:225px;max-height:188px">
-            </div>
+
+
+
+    <div class="col-12 col-md-9">
+        <p class="float-right hidden-md-up">
+            <button type="button" class="btn btn-primary btn-sm" data-toggle="offcanvas">Toggle nav</button>
+        </p>
+        <div class="jumbotron">
+            <h1>Blog Linux Brasil</h1>
+            <p>Antes de um blog uma base de conhecimentos</p>
         </div>
-    </div>
-    {% endfor %}
-</div>
-<!-- /.container -->
+
+        <!-- posts.loop-->
+        <div class="row">
+            {% for post in site.posts %}
+            <div class="col-6 col-lg-4">
+                <strong class="d-inline-block mb-2 text-primary">#{{ post.tag }}</strong>
+                <h2>{{ post.titulo }}</h2>
+                <div class="mb-1 text-muted">{{ post.date | date: "%d/%m/%Y" }}</div>
+                <p>{{ post.resumo }}</p>
+                <p><a class="btn btn-secondary" href="{{ post.url }}" role="button">Leia mais &raquo;</a></p>
+            </div><!--/span-->
+            {% endfor %}
+        </div><!--/row-->
+    </div><!--/span-->
