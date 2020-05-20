@@ -11,7 +11,7 @@ pagetitle: Home
 <div class="row">
     <div class="col-12 col-sm-6 col-md-8 blog-main">
         {% for post in site.posts %}
-        <div class="col-5 col-lg-5 d-inline-block">
+        <div class="col d-inline-block">
             <strong class="d-inline-block mb-2 text-primary">#{{ post.tag }}</strong>
             <h2>{{ post.titulo }}</h2>
             <div class="mb-1 text-muted">{{ post.date | date: "%d/%m/%Y" }}</div>
