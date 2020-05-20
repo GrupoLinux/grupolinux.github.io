@@ -3,7 +3,7 @@ layout: post
 titulo: "Howto de instalação do Arch Linux"
 author: reginaldo
 data: 17/05/2020
-image: archlinux-install.jpg
+image: archlinux-install.png
 tag: ArchLinux
 resumo: "Guia de instalação do Arch Linux"
 ---
