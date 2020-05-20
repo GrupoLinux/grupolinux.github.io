@@ -9,7 +9,7 @@ pagetitle: Home
 </div>
 <!-- posts.loop-->
 <div class="row">
-    <div class="col-9 col-sm-9 blog-main">
+    <div class="col-12 col-sm-6 col-md-8 blog-main">
         {% for post in site.posts %}
         <div class="col-5 col-lg-5 d-inline-block">
             <strong class="d-inline-block mb-2 text-primary">#{{ post.tag }}</strong>
@@ -20,7 +20,7 @@ pagetitle: Home
         </div><!--/span-->
         {% endfor %}
     </div><!--/row-->
-    <div class="col-3 col-sm-3 col-sm-offset-1 blog-sidebar">
+    <div class="col-6 col-md-4 blog-sidebar">
         {% include links.html %}
     </div>
 </div><!--/span-->
