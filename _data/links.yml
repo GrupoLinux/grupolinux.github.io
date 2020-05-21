@@ -1,4 +1,4 @@
-- name: Telegram
+- name: Grupo Linux + LPI no Telegram
   link: https://t.me/LinuxParaTodos
 - name: VOL
   link: https://www.vivaolinux.com.br
@@ -6,3 +6,5 @@
   link: https://diolinux.com.br
 - name: DistroWatch
   link: https://distrowatch.com
+- name: Mundo da Computação
+  link: https://mundodacomputacaointegral.blogspot.com 

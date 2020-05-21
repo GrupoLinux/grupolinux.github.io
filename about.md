@@ -4,4 +4,4 @@ pagetitle: About
 ---
 # About page
 
-This page tells you a little bit about me.
+Blog colaborativo com objetivo de compartilhar conhecimento sobre Linux (qualquer distro), dicas de LPI e Infraestrutura.

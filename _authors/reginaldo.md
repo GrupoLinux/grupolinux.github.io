@@ -1,6 +1,6 @@
 ---
-short_name: reginaldo
+short_name: @Saitam10
 name: Reginaldo
 position: Admin
 ---
-Ted has been eating fruit since he was baby.
+Full Cycle Developer, SysAdmin Linux
