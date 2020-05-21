@@ -1,5 +1,5 @@
 ---
-short_name: @Saitam10
+short_name: Saitam
 name: Reginaldo
 position: Admin
 ---
