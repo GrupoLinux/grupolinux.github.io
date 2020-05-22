@@ -4,7 +4,7 @@ _site
 jekyll-help-center-theme-0.1.0.gem
 jekyll-help-center-theme.gemspec
 node_modules
-
+vendor/
 
 # Created by https://www.gitignore.io/api/git,linux,macos,emacs,jekyll,windows,phpstorm+all
 # Edit at https://www.gitignore.io/?templates=git,linux,macos,emacs,jekyll,windows,phpstorm+all
