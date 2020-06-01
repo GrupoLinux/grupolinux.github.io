@@ -4,7 +4,7 @@ titulo: "Remove all games from GNOME"
 author: henryjr
 data: 31/05/2020
 image: default.jpg
-tag: debian
+tag: games
 resumo: "Just run these two commands as root and you get rid of them."
 ---
 (I’m just using sudo, if you don’t have sudo, just type su on terminal)

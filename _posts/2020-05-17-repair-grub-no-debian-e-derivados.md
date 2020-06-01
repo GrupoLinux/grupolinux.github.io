@@ -1,10 +1,10 @@
 ---
 layout: post
-titulo: "Repair Grud no Debian e derivados"
+titulo: "Repair Grub no Debian e derivados"
 author: henryjr
 data: 17/05/2020
 image: grub-rescue.png
-tag: debian
+tag: grub
 resumo: "Comandos simples para restaurar seu Grub."
 ---
 O uso é basicamente muito simples, use o terminal para os seguintes comandos.

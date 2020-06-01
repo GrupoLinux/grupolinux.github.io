@@ -4,7 +4,7 @@ titulo: "Remove libreoffice from Debian"
 author: henryjr
 data: 31/05/2020
 image: default.jpg
-tag: debian
+tag: libreoffice
 resumo: "Como desinstalar libreoffice-core do Debian"
 ---
 Desinstalar libreoffice

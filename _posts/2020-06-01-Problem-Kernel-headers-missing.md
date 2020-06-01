@@ -4,7 +4,7 @@ titulo: "Problem: Kernel headers missing"
 author: henryjr
 data: 31/05/2020
 image: default.jpg
-tag: debian
+tag: Kernel
 resumo: "Problem: Kernel headers missing"
 ---
 Solution

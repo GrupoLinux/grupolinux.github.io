@@ -4,7 +4,7 @@ titulo: "Problem: E: Could not get lock /var/lib/dpkg/lock – open"
 author: henryjr
 data: 30/05/2020
 image: default.jpg
-tag: debian
+tag: dpkg
 resumo: "Problem: E: Could not get lock /var/lib/dpkg/lock – open"
 ---
 E: Unable to lock the administration directory (/var/lib/dpkg/), is another process using it?
