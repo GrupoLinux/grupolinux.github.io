@@ -1,9 +1,9 @@
 ---
 layout: post
 titulo: "Conhecendo o Brave"
-author: "Saitam10"
-data: "01/06/2020"
-image: "brave-browser"
+author: Saitam10
+data: 01/06/2020
+image: brave-browser.png
 tag: "browser"
 resumo: "Secure, Fast & Private Web Browser with Adblocker"
 ---
