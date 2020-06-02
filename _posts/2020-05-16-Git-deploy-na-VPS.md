@@ -1,7 +1,7 @@
 ---
 layout: post
 titulo: "Git deploy na VPS"
-author: reginaldo
+author: Saitam10
 data: 19/05/2020
 image: vps.jpg
 tag: vps
