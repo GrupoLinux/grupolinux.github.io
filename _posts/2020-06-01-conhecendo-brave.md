@@ -48,12 +48,12 @@ sudo zypper install brave-browser
 
 # Referências
 
-[1] [Keck, Catie. Brave Wants to Destroy the Ad Business by Paying You to Watch Ads in its Web Browser] (https://gizmodo.com/brave-wants-to-destroy-the-ad-business-by-paying-you-to-1834283860)
+[1] [Keck, Catie. Brave Wants to Destroy the Ad Business by Paying You to Watch Ads in its Web Browser](https://gizmodo.com/brave-wants-to-destroy-the-ad-business-by-paying-you-to-1834283860)
 
-[2] [Brave Ads History Collection Privacy Policy] (https://brave.com/hc-privacy/)
+[2] [Brave Ads History Collection Privacy Policy](https://brave.com/hc-privacy/)
 
-[3] [Basic Attention Token] (https://basicattentiontoken.org/)
+[3] [Basic Attention Token](https://basicattentiontoken.org/)
 
-[4] [Repositório brave-browser no Github] (https://github.com/brave/brave-browser)
+[4] [Repositório brave-browser no Github](https://github.com/brave/brave-browser)
 
-[5] [https://brave.com] (https://brave.com)
+[5] [https://brave.com](https://brave.com)
