@@ -1,7 +1,7 @@
 ---
 layout: post
 titulo: "Conhecendo o Brave"
-author: Reginaldo
+author: saitam10
 data: 01/06/2020
 image: brave-browser.png
 tag: browser
