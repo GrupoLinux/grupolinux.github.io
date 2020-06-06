@@ -5,7 +5,7 @@ author: saitam10
 data: 06/06/2020
 image: nextcloud_logo.png
 tag: Nextcloud
-resumo: "Secure, Fast & Private Web Browser with Adblocker"
+resumo: "Nextcloud: easy to Install, Manage and Use"
 ---
 
 O que é Nextcloud?
