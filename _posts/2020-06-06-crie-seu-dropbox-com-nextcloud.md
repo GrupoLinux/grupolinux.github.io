@@ -13,7 +13,7 @@ O que é Nextcloud?
 Nextcloud tem funcionalidade muito semelhante ao Dropbox, com a diferença de ser código aberto, e assim permitir que qualquer pessoa instalar e operá-lo sem custo em um servidor privado. Nextcloud é um fork do projeto ownCloud.
 
 O objetivo deste post é de apresentar a forma de usar o Nextcloud no Docker. No entanto, se ainda não tiver o Docker instalado,  
-[https://mundodacomputacaointegral.blogspot.com/2019/10/instalando-docker-e-docker-compose-no-Linux.html](verifica aqui a instalação do Docker e Docker-compose no Linux)
+[verifica aqui a instalação do Docker e Docker-compose no Linux](https://mundodacomputacaointegral.blogspot.com/2019/10/instalando-docker-e-docker-compose-no-Linux.html)
 
 ## Instalação do Nextcloud no Docker
 
